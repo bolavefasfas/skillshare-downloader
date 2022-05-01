@@ -1,10 +1,8 @@
 from downloader import Downloader
+from magic import cookie
 
-cookie = """
-ADD YOUR COOKIE HERE
-"""
 
-dl = Downloader(cookie=cookie)
+dl = Downloader(cookie)
 
 # download by class URL:
 dl.download_course_by_url('https://www.skillshare.com/classes/Art-Fundamentals-in-One-Hour/189505397')
